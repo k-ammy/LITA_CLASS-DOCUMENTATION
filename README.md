@@ -8,7 +8,7 @@
 
 [Tools Used](#tools-used)
 
-[Data Cleaning & Preparations](#data-cleaning-preparation)
+[Data Cleaning and Preparations](#data-cleaning-and-preparation)
 
 [Data analysis](#data-analysis)
 
