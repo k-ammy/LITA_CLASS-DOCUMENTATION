@@ -12,6 +12,8 @@
 
 [Data analysis](#data-analysis)
 
+[Data Visualization](#data-visualization)
+
 
 
 
