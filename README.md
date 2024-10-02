@@ -103,5 +103,6 @@ FROM employees;
 
 ### Data Visualization
 
+![PIVOT Chart](https://github.com/user-attachments/assets/38e28179-4420-470a-8044-153e828fcd64)
 
 
