@@ -2,6 +2,19 @@
 
 ### Project Title: Data Discovery: Documenting my Analytics Experience
 
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning & Preparations](#data-cleaning-preparation)
+
+[Data analysis](#data-analysis)
+
+
+
+
 ### Project Overview
 ---
 This project serves as a personal documentation of my journey as I transition into the field of data analysis. It covers my growth from learning fundamental concepts to working with real-world datasets and applying various data analysis techniques.The objective of this project is to track my progress, reflect on key learning milestones, and demonstrate my ability to solve data problems using analytical approaches. It also serves as a resource for those interested in understanding the process of transitioning into data analytics, particularly through self-learning and structured courses.
@@ -109,3 +122,4 @@ FROM employees;
 
 |Heading 1|Heading 2|Heading 3|
 |---------|---------|---------|
+|Table 1|Table 2|Table 3|
