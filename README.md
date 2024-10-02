@@ -41,4 +41,59 @@ Exploratory Data Analysis (EDA) is a critical process in data analysis where you
 - Discover Patterns: Spot trends, correlations, or groupings within the data.
 - Test Hypotheses: Explore relationships between variables to validate assumptions.
 
+### Data Analysis
+This is where we include some basic line of code or query or some of DAX expressions used during my analysis;
+- Data Analysis Expressions Using Microsoft Excel:
+```EXCEL
+
+=SUM(A2:A10)
+=AVERAGE(B2:B10)
+=IF(A2>50, "Pass", "Fail")
+=COUNTIF(A2:A10, ">50")
+=SUMIF(B2:B10, ">50", C2:C10)
+=VLOOKUP(D2, A2:C10, 3, FALSE)
+=INDEX(B2:B10, MATCH(D2, A2:A10, 0))
+=LEFT(A2, 3)  // Extracts first 3 characters
+=RIGHT(B2, 4) // Extracts last 4 characters
+=LEFT(A2, 3)  // Extracts first 3 characters
+=RIGHT(B2, 4) // Extracts last 4 characters
+=A2 & " " & B2
+=TRIM(A2)
+=TODAY()
+=DATEDIF(A2, B2, "D")  // "D" for days
+
+```
+- Data Analysis Expressions Using Structured Query Language (SQL)
+
+```SQL
+SELECT column1, column2 FROM table_name;
+SELECT * FROM employees WHERE salary > 50000;
+SELECT SUM(salary) FROM employees;
+SELECT AVG(salary) FROM employees;
+SELECT COUNT(*) FROM employees;
+SELECT MIN(salary), MAX(salary) FROM employees;
+SELECT department, AVG(salary) FROM employees GROUP BY department;
+SELECT department, AVG(salary)
+FROM employees
+GROUP BY department
+HAVING AVG(salary) > 50000;
+SELECT employees.name, departments.name
+FROM employees
+INNER JOIN departments ON employees.department_id = departments.id;
+SELECT employees.name, departments.name
+FROM employees
+LEFT JOIN departments ON employees.department_id = departments.id;
+SELECT * FROM employees ORDER BY salary DESC;
+SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);
+SELECT name, salary, 
+CASE
+  WHEN salary > 50000 THEN 'High'
+  WHEN salary BETWEEN 30000 AND 50000 THEN 'Medium'
+  ELSE 'Low'
+END AS salary_category
+FROM employees;
+
+```
+
+
 
