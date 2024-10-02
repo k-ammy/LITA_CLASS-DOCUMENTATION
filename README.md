@@ -105,4 +105,7 @@ FROM employees;
 
 ![PIVOT Chart](https://github.com/user-attachments/assets/38e28179-4420-470a-8044-153e828fcd64)
 
+![583a08ee-fec1-49a7-b293-100cdd5fb1af (2)](https://github.com/user-attachments/assets/f64ec37b-2119-4b54-9f88-421449a0b565)
 
+|Heading 1|Heading 2|Heading 3|
+|---------|---------|---------|
