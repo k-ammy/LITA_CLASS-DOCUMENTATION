@@ -1,4 +1,6 @@
-# LITA_CLASS-DOCUMENTATION
+# LITA_CLASS_DOCUMENTATION
 
-###Project Title: Program Overview
+### Project Title: Program Overview of Data Analysis 
+
+
 
