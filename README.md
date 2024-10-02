@@ -8,3 +8,10 @@ This project serves as a personal documentation of my journey as I transition in
 ### Data Sources
 The Primary source of Data used is Salary review.xlxs and this is an open source data that can be freely downloaded from an open source online such as kaggle or FRED or any other data repository site.
 
+### Tools Used
+- Microsoft Excel [Download Here](https://www.microsoft.com)
+    1. Data Cleaning
+    2. For Analysis
+    3. For Visualisation
+- SQL - Structured Query Language for Quering of Data
+- GitHub for Portfolio Building
