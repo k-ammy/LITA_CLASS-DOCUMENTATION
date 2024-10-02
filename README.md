@@ -33,3 +33,12 @@ In the Data Cleaning and Preparation section of your documentation, you'll want 
 -    Correcting Inconsistent Data Types:
         1. Convert data types to their appropriate format (e.g., dates to datetime, numerical values to float or int).
 
+### Exploratory Data Analysis
+Exploratory Data Analysis (EDA) is a critical process in data analysis where you analyze and summarize the main characteristics of a dataset. It involves the use of statistical and visualization techniques to uncover patterns, spot anomalies, test hypotheses, and verify assumptions before applying more complex analytical models. EDA provides a deeper understanding of the data and helps you make informed decisions about data preprocessing and modeling. Key objectives of EDA are:
+- Understand Data Structure: Examine the dataset’s size, shape, and structure, including the number of rows and columns, data types, and basic statistics.
+- Detect Outliers: Identify unusual data points that could affect model performance.
+- Find Missing Data: Uncover missing or incomplete data that needs to be handled.
+- Discover Patterns: Spot trends, correlations, or groupings within the data.
+- Test Hypotheses: Explore relationships between variables to validate assumptions.
+
+
