@@ -65,47 +65,99 @@ Exploratory Data Analysis (EDA) is a critical process in data analysis where you
 ---
 This is where we include some basic line of code or query or some of DAX expressions used during my analysis;
 - Data Analysis Expressions Using Microsoft Excel:
+- 
 ```EXCEL
-
 =SUM(A2:A10)
-=AVERAGE(B2:B10)
-=IF(A2>50, "Pass", "Fail")
-=COUNTIF(A2:A10, ">50")
-=SUMIF(B2:B10, ">50", C2:C10)
-=VLOOKUP(D2, A2:C10, 3, FALSE)
-=INDEX(B2:B10, MATCH(D2, A2:A10, 0))
-=LEFT(A2, 3)  // Extracts first 3 characters
-=RIGHT(B2, 4) // Extracts last 4 characters
-=LEFT(A2, 3)  // Extracts first 3 characters
-=RIGHT(B2, 4) // Extracts last 4 characters
-=A2 & " " & B2
-=TRIM(A2)
-=TODAY()
-=DATEDIF(A2, B2, "D")  // "D" for days
-
 ```
+```EXCEL
+=AVERAGE(B2:B10)
+```
+```EXCEL
+=IF(A2>50, "Pass", "Fail")
+```
+```EXCEL
+=COUNTIF(A2:A10, ">50")
+```
+```EXCEL
+=SUMIF(B2:B10, ">50", C2:C10)
+```
+```EXCEL
+=VLOOKUP(D2, A2:C10, 3, FALSE)
+```
+```EXCEL
+=INDEX(B2:B10, MATCH(D2, A2:A10, 0))
+```
+```EXCEL
+=LEFT(A2, 3)  // Extracts first 3 characters
+```
+```EXCEL
+=RIGHT(B2, 4) // Extracts last 4 characters
+```
+```EXCEL
+=LEFT(A2, 3)  // Extracts first 3 characters
+```
+```EXCEL
+=RIGHT(B2, 4) // Extracts last 4 characters
+```
+```EXCEL
+=A2 & " " & B2
+```
+```EXCEL
+=TRIM(A2)
+```
+```EXCEL
+=TODAY()
+```
+```EXCEL
+=DATEDIF(A2, B2, "D")  // "D" for days
+```
+
 - Data Analysis Expressions Using Structured Query Language (SQL)
 
 ```SQL
 SELECT column1, column2 FROM table_name;
+```
+```SQL
 SELECT * FROM employees WHERE salary > 50000;
+```
+```SQL
 SELECT SUM(salary) FROM employees;
+```
+```SQL
 SELECT AVG(salary) FROM employees;
+```
+```SQL
 SELECT COUNT(*) FROM employees;
+```
+```SQL
 SELECT MIN(salary), MAX(salary) FROM employees;
+```
+```SQL
 SELECT department, AVG(salary) FROM employees GROUP BY department;
+```
+```SQL
 SELECT department, AVG(salary)
 FROM employees
 GROUP BY department
 HAVING AVG(salary) > 50000;
+```
+```SQL
 SELECT employees.name, departments.name
 FROM employees
 INNER JOIN departments ON employees.department_id = departments.id;
+```
+```SQL
 SELECT employees.name, departments.name
 FROM employees
 LEFT JOIN departments ON employees.department_id = departments.id;
+```
+```SQL
 SELECT * FROM employees ORDER BY salary DESC;
+```
+```SQL
 SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);
+```
+```SQL
 SELECT name, salary, 
 CASE
   WHEN salary > 50000 THEN 'High'
@@ -113,7 +165,6 @@ CASE
   ELSE 'Low'
 END AS salary_category
 FROM employees;
-
 ```
 
 ### Data Visualization
